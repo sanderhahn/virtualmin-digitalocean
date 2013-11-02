@@ -25,7 +25,7 @@ SSH Key: Select your SSH key
 
 Click "Create Droplet"
 
-## Inital Setup
+## Initial Setup
 
 Digital Ocean shows the IP address of your new VPS
 and that can be used to connect using SSH:
