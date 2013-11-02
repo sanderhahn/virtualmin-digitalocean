@@ -48,7 +48,7 @@ dpkg-reconfigure tzdata
 update-locale LC_ALL=en_US.UTF-8 LC_MESSAGES=POSIX
 ```
 
-## Setup swap
+## Setup Swap
 
 The full instructions for swap setup are available at:
 [How To Add Swap on Ubuntu 12.04](https://www.digitalocean.com/community/articles/how-to-add-swap-on-ubuntu-12-04).
@@ -93,28 +93,27 @@ echo Password is $PASSWD
 
 After the installation is finished you can access the control panel at:
 `https://<ip-address>:10000` or `https://virtualmin.yourdomain.com:10000`.
-Your browser will warn you because the certificate is a self signed
-and is not provided by an offical certificate provider. 
+Your browser will warn you because the certificate is self signed
+and not provided by an offical certificate provider. 
 
-Use defaults in the "Post-Installation Wizard", you can reuse the
-root password for the MySQL root password. Select "Only store hashed
+Use defaults values in the "Post-Installation Wizard" steps. You can reuse the
+generated root password for the MySQL database. Select "Only store hashed
 passwords" in the password storage mode step.
 
-The "Re-check and refresh configuration" doesn't immediately work on
-my system, so i first reboot it using:
+The "Re-Check and Refresh Configuration" doesn't immediately work on
+my system, so lets first reboot the system using:
 
 ```
-Webmin > System > Bootup and Shutdown > Click "Reboot System" (down the
-page)
+Webmin > System > Bootup and Shutdown > Click "Reboot System" (down the page)
 ```
 
-After a minute or so the system is back online and click on "Re-Check
-Configuration" and everything should be okay.
+After a minute or so the system is back online and clicking on "Re-Check
+Configuration" will display that everything is okay.
 
 You can start configuring virtual hosts using "Create Virtual
-Server" and it will setup hosting, database and email. The configuration
-that can be done using Virtualmin is extensive but the interface is
-meant to be easier than doing configuration using the commandline.
+Server" and it will setup hosting, database and email for you.
+The configuration that can be done using Virtualmin is extensive but the interface is
+much easier than doing manual configuration using the commandline.
 Take a dive into the [Step by step tutorials](http://www.virtualmin.com/documentation/tutorial)
 to learn more.
 
