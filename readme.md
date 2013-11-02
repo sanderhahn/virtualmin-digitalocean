@@ -31,8 +31,7 @@ Replace `<ip-address>` part with the ip address of your
 VPS.
 
 Once inside your VPS we will update and upgrade the
-packages, setup the timezone and locale. Confirm using
-yes to the questions:
+packages, setup the timezone and locale.
 
 ```bash
 apt-get update
@@ -68,8 +67,8 @@ Confirm that there is a swapfile displayed when you execute `swapon -s`.
 
 ## Setup Virtualmin
 
-Download the installer script and start using the shell, full
-description available at:
+Download the installer script and start using the shell. The full
+instructions are available at:
 [Virtualmin Installation Quickstart](http://www.virtualmin.com/documentation/installation/automated).
 
 ```bash
@@ -78,8 +77,9 @@ sh install.sh
 ```
 
 Answer yes and provide a full qualified domain name like:
-`virtualmin.yourdomain.com`. Using a domain provider like TransIP
-or Gandi.net makes it easy to setup the DNS records.
+`virtualmin.yourdomain.com`. Domain providers like
+[TransIP](https://www.transip.nl/)
+or [Gandi.net](https://www.gandi.net/) over easy panels to setup your DNS records.
 
 Generate a random password that you can use for the root user:
 
@@ -92,8 +92,9 @@ echo Password is $PASSWD
 ## Reboot and Finish Installation
 
 After the installation is finished you can access the control panel at:
-`https://<ip-address>:10000` or `https://virtualmin.yourdomain.com` if the
-dns changes are propagated.
+`https://<ip-address>:10000` or `https://virtualmin.yourdomain.com:10000`.
+Your browser will warn you because the certificate is a self signed
+and is not provided by an offical certificate provider. 
 
 Use defaults in the "Post-Installation Wizard", you can reuse the
 root password for the MySQL root password. Select "Only store hashed
@@ -108,10 +109,13 @@ page)
 ```
 
 After a minute or so the system is back online and click on "Re-Check
-Configuration" and everything should be okay :)
+Configuration" and everything should be okay.
 
-Now you can start configuring virtual hosts using "Create Virtual
+You can start configuring virtual hosts using "Create Virtual
 Server" and it will setup hosting, database and email. The configuration
 that can be done using Virtualmin is extensive but the interface is
-meant to be easier than doing the configuration using the commandline.
+meant to be easier than doing configuration using the commandline.
+Take a dive into the [Step by step tutorials](http://www.virtualmin.com/documentation/tutorial)
+to learn more.
 
+Congratulations your now running your own Linux server :)
