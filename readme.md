@@ -7,8 +7,8 @@ VPS servers. Ubuntu 12.04 is a reliable linux
 distribution that is a LTS release (long time support).
 
 Other nice VPS hosting providers are:
-- [Linode](https://www.linode.com/)
-- [DirectVPS](https://www.directvps.nl/) for The Netherlands
+- [Linode](https://www.linode.com/) International
+- [DirectVPS](https://www.directvps.nl/) The Netherlands
 
 ## Create a droplet at Digital Ocean:
 
