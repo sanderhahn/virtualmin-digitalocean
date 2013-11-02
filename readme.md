@@ -10,7 +10,10 @@ Other nice VPS hosting providers are:
 - [Linode](https://www.linode.com/) International
 - [DirectVPS](https://www.directvps.nl/) The Netherlands
 
-## Create a droplet at Digital Ocean:
+## Create a Droplet
+
+Sign up at [Digital Ocean](https://www.digitalocean.com/) and
+add your SSH key.
 
 ```
 Name: virtualmin
