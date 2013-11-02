@@ -6,6 +6,10 @@ provides a clean interface to quickly create new
 VPS servers. Ubuntu 12.04 is a reliable linux
 distribution that is a LTS release (long time support).
 
+Other nice VPS hosting providers are:
+- [Linode](https://www.linode.com/)
+- [DirectVPS](https://www.directvps.nl/) for The Netherlands
+
 ## Create a droplet at Digital Ocean:
 
 ```
@@ -96,7 +100,7 @@ After the installation is finished you can access the control panel at:
 Your browser will warn you because the certificate is self signed
 and not provided by an offical certificate provider. 
 
-Use defaults values in the "Post-Installation Wizard" steps. You can reuse the
+Use default values in the "Post-Installation Wizard" steps. You can reuse the
 generated root password for the MySQL database. Select "Only store hashed
 passwords" in the password storage mode step.
 
