@@ -118,4 +118,4 @@ meant to be easier than doing configuration using the commandline.
 Take a dive into the [Step by step tutorials](http://www.virtualmin.com/documentation/tutorial)
 to learn more.
 
-Congratulations your now running your own Linux server :)
+Congratulations you are now running your own Linux server :)
